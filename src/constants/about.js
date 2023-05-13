@@ -2,13 +2,13 @@ import images from "./images";
 
 const abouts = [
   {
-    title: "Web developer",
-    description: "I am a good wev developer",
-    imgUrl: images.about01,
+    title: "Raspberry Pi",
+    description: "Embedded systems and IoT with Raspberry Pi.",
+    imgUrl: images.raspberrypi3d,
   },
-  { title: "Python", description: "I am a good wev developer", imgUrl: images.about02 },
-  { title: "UI/UX", description: "I am a good wev developer", imgUrl: images.about03 },
-  { title: "UI/UX", description: "I am a good wev developer", imgUrl: images.about04 },
+  { title: "Arduino", description: "Interactive hardware projects with Arduino.", imgUrl: images.arduino3d },
+  { title: "Altium Designer", description: "Custom PCB design with Altium.", imgUrl: images.design3d },
+  { title: "Sensor Integration", description: "Seamlessly integrating sensors into hardware systems for enhanced data capture and intelligent functionality.", imgUrl: images.about04 },
 ];
 
 export default abouts;

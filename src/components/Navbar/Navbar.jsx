@@ -15,7 +15,7 @@ const Navbar = () => {
       whileInView="show"
     >
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="Logo" />
+        <img src={images.vikaslogo} alt="Logo" />
       </div>
       <ul className="app__navbar-links">
         {["Home", "About", "Contact", "Work", "Skills"].map((item) => (
