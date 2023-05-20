@@ -38,12 +38,13 @@ import spotify from "../assets/spotify.png";
 import arduino from "../assets/arduino.png";
 import fusion360 from "../assets/fusion360.png";
 import raspberrypi from "../assets/raspberrypi.png";
-import raspberrypi3d from '../assets/raspberrypi3d.png'
-import arduino3d from '../assets/arduino3d.png'
-import fusion from  '../assets/fusion.webp'
-import design3d from '../assets/design3d.png'
+import raspberrypi3d from "../assets/raspberrypi3d.png";
+import arduino3d from "../assets/arduino3d.png";
+import fusion from "../assets/fusion.webp";
+import design3d from "../assets/design3d.png";
 
-import vikaslogo from '../assets/vikas.png'
+import vikaslogo from "../assets/vikas.png";
+import embc from "../assets/embc.png";
 export default {
   arduino,
   fusion360,
@@ -53,6 +54,8 @@ export default {
   fusion,
   design3d,
   vikaslogo,
+  embc,
+
   email,
   mobile,
   api,

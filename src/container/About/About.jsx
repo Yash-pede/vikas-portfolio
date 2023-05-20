@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
 import abouts from "../../constants/about";
+import { Appwrap } from "../../wrapper";
 
 const About = () => {
   return (
     <>
-      <h2 className="head-text app__about">
+      <h2 id="About" className="head-text app__about">
         I know that
         <span> Good Design </span>
         <br />
@@ -37,4 +38,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Appwrap(About,'about');

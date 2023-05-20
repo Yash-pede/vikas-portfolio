@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 import { slideIn } from "../../utils/motion";
 
+import { Appwrap } from "../../wrapper";
+
 const scaleVariants = {
   whileInView: {
     scale: [0, 1],
@@ -18,7 +20,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div id="home" className="app__header app__flex">
+    <div id="Home" className="app__header app__flex">
       <motion.div
         variants={slideIn("left", "spring", 0.3, 0.1)}
         initial="hidden"
@@ -70,4 +72,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Appwrap(Header,'home');
